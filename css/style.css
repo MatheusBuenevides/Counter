@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #22577E;
+    color: #F6F2D4;
+}
+
+.btn{
+    background-color: #95D1CC;
+    color: #22577E;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    height:30px
+}
+
+.indexContet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.indexContet .title h1{
+    font-size: 30px;
+}
+
+.indexContet .data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.indexContet .data span{
+    text-align: center;
+    font-size: 18px;
+}
+
+.indexContet .data form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.indexContet .data form input[type = 'date']{
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color: #5584AC;
+    color: #F6F2D4;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(93%) sepia(17%) saturate(486%) hue-rotate(331deg) brightness(107%) contrast(93%);
+}
